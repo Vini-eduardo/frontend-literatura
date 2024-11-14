@@ -1,5 +1,4 @@
 async function enviaFormulario() {
-    // recuperar as informações do formulário e colocar em objeto JSON
     const alunoDTO = {
         "nome": document.querySelectorAll("input")[0].value,
         "sobrenome": document.querySelectorAll("input")[1].value,

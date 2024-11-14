@@ -19,7 +19,7 @@
 
 .painel-esquerdo img {
     width: 50%;
-    margin-top: 15%;
+    margin-top: 1%;
 }
 
 .painel-esquerdo div {
@@ -40,7 +40,7 @@
 }
 
 .painel-direito img {
-    width: 900px;
-    
+    width: 700px;
+    height: 1200vh;
     transform: scaleX(-1);
 }
