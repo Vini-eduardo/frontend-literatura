@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livro</title>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="lista-aluno.html">ALUNOS</a>
+            <a href="lista-livros.html">LIVROS</a>
+            <a href="lista-emprestimos.html">EMPRÉSTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DE LIVRO</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label>
+                Título
+                <br>
+                <input type="text" name="input-titulo-livro" placeholder="Informe o título do livro" required>
+            </label>
+            <label>
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="Informe o autor do livro" required>
+            </label>
+            <label>
+                Editora
+                <br>
+                <input type="text" name="input-editora-livro" placeholder="Informe a editora do livro" required>
+            </label>
+            <label>
+                Ano de Publicação
+                <br>
+                <input type="text" name="input-anoPublicacao-livro" placeholder="Informe o ano de publicação do livro" required>
+            </label>
+            <label>
+                ISBN
+                <br>
+                <input type="text" name="input-isbn-livro" placeholder="Informe o isbn do livro" required>
+            </label>
+            <label>
+                Quantidade Total
+                <br>
+                <input type="number" name="input-quantTotal-livro" placeholder="Informe a quantidade total de livros" required>
+            </label>
+            <label>
+                Quantidade Disponível
+                <br>
+                <input type="number" name="input-quantDisponivel-livro" placeholder="Informe a quantidade disponível do livro" required>
+            </label>
+            <label>
+                Valor de Aquisição
+                <br>
+                <input type="number" name="input-valorAquisicao-livro" placeholder="Informe o valor de aquisição do livro" required>
+            </label>
+            <label>
+                Status do livro
+                <br>
+                <input type="text" name="input-status-livro" placeholder="Informe o status do livro" required>
+            </label>
+            <input type="button" value="CADASTRAR" onclick="enviaFormulario()">
+        </form>
+    </div>
+    <script src="js/carro.js"></script>
+</body>
+
+</html>
