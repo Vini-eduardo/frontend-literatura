@@ -89,14 +89,14 @@ function criarTabelaLivros(livros) {
             // cria o td para o email do cliente
             const tdQuantTotal = document.createElement('td');
             // insere o email do cliente
-            tdQuantTotal.textContent = aluno.quantTotal;
+            tdQuantTotal.textContent = livro.quantTotal;
             // insere tdEmail como filho de tr
             tr.appendChild(tdQuantTotal);
 
             // cria o td para o email do cliente
             const tdQuantDisp = document.createElement('td');
             // insere o email do cliente
-            tdQuantDisp.textContent = livro.quantDisp;
+            tdQuantDisp.textContent = livro.quantDisponivel;
             // insere tdEmail como filho de tr
             tr.appendChild(tdQuantDisp);
 
